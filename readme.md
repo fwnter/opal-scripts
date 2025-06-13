@@ -1,0 +1,2 @@
+# OPAL-Scripts
+This repository contains all scripts used for my bachelor-thesis, allowing for testing OPAL under different conditions (limited memory scenarios, big projects, different scheduling strategies and combinations thereof).
