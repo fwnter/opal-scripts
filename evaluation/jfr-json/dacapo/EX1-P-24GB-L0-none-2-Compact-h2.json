@@ -1,0 +1,4302 @@
+{
+  "recording": {
+    "events": [{
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:38.535294895Z", 
+        "duration": "PT0.000087337S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 3, 
+        "totalThreadCount": 13, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.ActiveRecording", 
+      "values": {
+        "startTime": "2025-10-10T17:59:38.536503586Z", 
+        "id": 1, 
+        "name": "1", 
+        "destination": "\/home\/fabian\/jfr\/dacapo\/EX1-P-24GB-L0-none-2-Compact-h2.jfr", 
+        "disk": true, 
+        "maxAge": "PT2562047788015215H30M7.999999999S", 
+        "flushInterval": "PT1S", 
+        "maxSize": 0, 
+        "recordingStart": "2025-10-10T17:59:38.532Z", 
+        "recordingDuration": "PT2562047788015215H30M7.999999999S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:38.538534394Z", 
+        "duration": "PT0.0000848S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 4, 
+        "totalThreadCount": 13, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:38.898936539Z", 
+        "duration": "PT0.000207624S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 5, 
+        "totalThreadCount": 20, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:38.899164342Z", 
+        "gcId": 0, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 9076473856, 
+          "committedSize": 486539264, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 50331648
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:38.904365150Z", 
+        "gcId": 0, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 9076473856, 
+          "committedSize": 486539264, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 6852672
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T17:59:38.899163021Z", 
+        "duration": "PT0.005204266S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 0, 
+        "name": "G1New", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.005204266S", 
+        "longestPause": "PT0.005204266S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:38.926101673Z", 
+        "duration": "PT0.000005503S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 6, 
+        "totalThreadCount": 30, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:38.926123863Z", 
+        "gcId": 1, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 9076473856, 
+          "committedSize": 486539264, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 6852672
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:38.929419829Z", 
+        "gcId": 1, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 9076473856, 
+          "committedSize": 486539264, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 7152904
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T17:59:38.926122665Z", 
+        "duration": "PT0.003298505S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 1, 
+        "name": "G1New", 
+        "cause": "Metadata GC Threshold", 
+        "sumOfPauses": "PT0.003298505S", 
+        "longestPause": "PT0.003298505S"
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:38.929484933Z", 
+        "gcId": 2, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 9076473856, 
+          "committedSize": 486539264, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 7152904
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:38.932024192Z", 
+        "duration": "PT0.00000545S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 7, 
+        "totalThreadCount": 30, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:38.934004607Z", 
+        "duration": "PT0.000079306S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 8, 
+        "totalThreadCount": 30, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:38.934891973Z", 
+        "gcId": 2, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 8657043456, 
+          "committedSize": 67108864, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 7152904
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T17:59:38.929484036Z", 
+        "duration": "PT0.005409959S", 
+        "eventThread": {
+          "osName": "G1 Main Marker", 
+          "osThreadId": 96316, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 2, 
+        "name": "G1Old", 
+        "cause": "Metadata GC Threshold", 
+        "sumOfPauses": "PT0.001766092S", 
+        "longestPause": "PT0.001759773S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:39.681175193Z", 
+        "duration": "PT0.00000587S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 9, 
+        "totalThreadCount": 30, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:39.681196709Z", 
+        "gcId": 3, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 8657043456, 
+          "committedSize": 67108864, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 57484552
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:39.687612683Z", 
+        "gcId": 3, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 8673820672, 
+          "committedSize": 83886080, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 11030808
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T17:59:39.681195486Z", 
+        "duration": "PT0.006418727S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 3, 
+        "name": "G1New", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.006418727S", 
+        "longestPause": "PT0.006418727S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:39.790502943Z", 
+        "duration": "PT0.000005404S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 10, 
+        "totalThreadCount": 30, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:39.790527665Z", 
+        "gcId": 4, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 8673820672, 
+          "committedSize": 83886080, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 11030808
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:39.797135533Z", 
+        "gcId": 4, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 8673820672, 
+          "committedSize": 83886080, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 11888816
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T17:59:39.790526440Z", 
+        "duration": "PT0.006610902S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 4, 
+        "name": "G1New", 
+        "cause": "Metadata GC Threshold", 
+        "sumOfPauses": "PT0.006610902S", 
+        "longestPause": "PT0.006610902S"
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:39.797199435Z", 
+        "gcId": 5, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 8673820672, 
+          "committedSize": 83886080, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 11888816
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:39.799813676Z", 
+        "duration": "PT0.000221959S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 11, 
+        "totalThreadCount": 30, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:39.805033933Z", 
+        "duration": "PT0.000079169S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 12, 
+        "totalThreadCount": 30, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:39.805510854Z", 
+        "gcId": 5, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 8673820672, 
+          "committedSize": 83886080, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 11888816
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T17:59:39.797198473Z", 
+        "duration": "PT0.008314294S", 
+        "eventThread": {
+          "osName": "G1 Main Marker", 
+          "osThreadId": 96316, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 5, 
+        "name": "G1Old", 
+        "cause": "Metadata GC Threshold", 
+        "sumOfPauses": "PT0.002804053S", 
+        "longestPause": "PT0.002794511S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:40.307636325Z", 
+        "duration": "PT0.000006731S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 13, 
+        "totalThreadCount": 30, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:40.307660468Z", 
+        "gcId": 6, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 8673820672, 
+          "committedSize": 83886080, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 45443248
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:40.315372967Z", 
+        "gcId": 6, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 8673820672, 
+          "committedSize": 83886080, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 14077640
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T17:59:40.307658746Z", 
+        "duration": "PT0.007715774S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 6, 
+        "name": "G1New", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.007715774S", 
+        "longestPause": "PT0.007715774S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:40.590919226Z", 
+        "duration": "PT0.000102648S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 14, 
+        "totalThreadCount": 32, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:40.591039123Z", 
+        "gcId": 7, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 8673820672, 
+          "committedSize": 83886080, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 30854856
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:40.601050461Z", 
+        "gcId": 7, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 8673820672, 
+          "committedSize": 83886080, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 16335560
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T17:59:40.591037841Z", 
+        "duration": "PT0.01001459S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 7, 
+        "name": "G1New", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.01001459S", 
+        "longestPause": "PT0.01001459S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:40.816713913Z", 
+        "duration": "PT0.000091047S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 15, 
+        "totalThreadCount": 32, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:40.816822918Z", 
+        "gcId": 8, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 8673820672, 
+          "committedSize": 83886080, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 49889992
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:40.832267829Z", 
+        "gcId": 8, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 8673820672, 
+          "committedSize": 83886080, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 22180272
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T17:59:40.816821060Z", 
+        "duration": "PT0.015448705S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 8, 
+        "name": "G1New", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.015448705S", 
+        "longestPause": "PT0.015448705S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:40.976424502Z", 
+        "duration": "PT0.0000919S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 16, 
+        "totalThreadCount": 32, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:40.976533322Z", 
+        "gcId": 9, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 8673820672, 
+          "committedSize": 83886080, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 55734704
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:40.991782275Z", 
+        "gcId": 9, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 8673820672, 
+          "committedSize": 83886080, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 25143600
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T17:59:40.976532038Z", 
+        "duration": "PT0.01525175S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 9, 
+        "name": "G1New", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.01525175S", 
+        "longestPause": "PT0.01525175S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:41.089879666Z", 
+        "duration": "PT0.000080576S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 17, 
+        "totalThreadCount": 33, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:41.089976772Z", 
+        "gcId": 10, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 8673820672, 
+          "committedSize": 83886080, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 58698032
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:41.105984538Z", 
+        "gcId": 10, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 8875147264, 
+          "committedSize": 285212672, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 30817928
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T17:59:41.089975478Z", 
+        "duration": "PT0.016010579S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 10, 
+        "name": "G1New", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.016010579S", 
+        "longestPause": "PT0.016010579S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:41.496851112Z", 
+        "duration": "PT0.000190984S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 18, 
+        "totalThreadCount": 33, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:41.497069233Z", 
+        "gcId": 11, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 8875147264, 
+          "committedSize": 285212672, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 165035656
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:41.522239991Z", 
+        "gcId": 11, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 8875147264, 
+          "committedSize": 285212672, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 53904192
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T17:59:41.497067371Z", 
+        "duration": "PT0.025174739S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 11, 
+        "name": "G1New", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.025174739S", 
+        "longestPause": "PT0.025174739S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:41.699665975Z", 
+        "duration": "PT0.000092321S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 19, 
+        "totalThreadCount": 34, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:41.699775989Z", 
+        "gcId": 12, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 8875147264, 
+          "committedSize": 285212672, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 154567488
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:41.722044678Z", 
+        "gcId": 12, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 8875147264, 
+          "committedSize": 285212672, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 67373600
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T17:59:41.699774640Z", 
+        "duration": "PT0.02227245S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 12, 
+        "name": "G1New", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.02227245S", 
+        "longestPause": "PT0.02227245S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:41.868512317Z", 
+        "duration": "PT0.00009263S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 20, 
+        "totalThreadCount": 34, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:41.868622263Z", 
+        "gcId": 13, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 8875147264, 
+          "committedSize": 285212672, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 184814112
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:41.882478194Z", 
+        "gcId": 13, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 8875147264, 
+          "committedSize": 285212672, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 79788352
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T17:59:41.868621028Z", 
+        "duration": "PT0.013859306S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 13, 
+        "name": "G1New", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.013859306S", 
+        "longestPause": "PT0.013859306S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:42.063353898Z", 
+        "duration": "PT0.000083613S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 21, 
+        "totalThreadCount": 34, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:42.063454578Z", 
+        "gcId": 14, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 8875147264, 
+          "committedSize": 285212672, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 197228864
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:42.081117513Z", 
+        "gcId": 14, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 9160359936, 
+          "committedSize": 570425344, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 111166952
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T17:59:42.063453138Z", 
+        "duration": "PT0.017666045S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 14, 
+        "name": "G1New", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.017666045S", 
+        "longestPause": "PT0.017666045S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:42.543576330Z", 
+        "duration": "PT0.000087748S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 22, 
+        "totalThreadCount": 34, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:42.543680363Z", 
+        "gcId": 15, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 9160359936, 
+          "committedSize": 570425344, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 379602408
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:42.584452725Z", 
+        "gcId": 15, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 9160359936, 
+          "committedSize": 570425344, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 203750272
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T17:59:42.543679050Z", 
+        "duration": "PT0.04077539S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 15, 
+        "name": "G1New", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.04077539S", 
+        "longestPause": "PT0.04077539S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:42.830923932Z", 
+        "duration": "PT0.000096594S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 23, 
+        "totalThreadCount": 34, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:42.831040787Z", 
+        "gcId": 16, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 9160359936, 
+          "committedSize": 570425344, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 388299648
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:42.859631324Z", 
+        "gcId": 16, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 9160359936, 
+          "committedSize": 570425344, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 237778208
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T17:59:42.831038744Z", 
+        "duration": "PT0.028594931S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 16, 
+        "name": "G1New", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.028594931S", 
+        "longestPause": "PT0.028594931S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:43.070502390Z", 
+        "duration": "PT0.00009551S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 24, 
+        "totalThreadCount": 34, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:43.070616427Z", 
+        "gcId": 17, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 9160359936, 
+          "committedSize": 570425344, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 422327584
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:43.093336896Z", 
+        "gcId": 17, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 9160359936, 
+          "committedSize": 570425344, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 261323920
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T17:59:43.070615017Z", 
+        "duration": "PT0.022730824S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 17, 
+        "name": "G1New", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.022730824S", 
+        "longestPause": "PT0.022730824S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:43.213597765Z", 
+        "duration": "PT0.000096062S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 25, 
+        "totalThreadCount": 34, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:43.213712238Z", 
+        "gcId": 18, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 9160359936, 
+          "committedSize": 570425344, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 445873296
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:43.231584352Z", 
+        "gcId": 18, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 9730785280, 
+          "committedSize": 1140850688, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 276809568
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T17:59:43.213710890Z", 
+        "duration": "PT0.017884899S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 18, 
+        "name": "G1New", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.017884899S", 
+        "longestPause": "PT0.017884899S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:43.890530729Z", 
+        "duration": "PT0.000619009S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 26, 
+        "totalThreadCount": 38, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:43.891168236Z", 
+        "gcId": 19, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 9730785280, 
+          "committedSize": 1140850688, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 813680480
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:43.927662487Z", 
+        "gcId": 19, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 9730785280, 
+          "committedSize": 1140850688, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 333276752
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T17:59:43.891166914Z", 
+        "duration": "PT0.036497355S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 19, 
+        "name": "G1New", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.036497355S", 
+        "longestPause": "PT0.036497355S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:44.300157799Z", 
+        "duration": "PT0.000093341S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 27, 
+        "totalThreadCount": 38, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:44.300282218Z", 
+        "gcId": 20, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 9730785280, 
+          "committedSize": 1140850688, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 786261584
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:44.344113294Z", 
+        "gcId": 20, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 9730785280, 
+          "committedSize": 1140850688, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 378136416
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T17:59:44.300280870Z", 
+        "duration": "PT0.043834184S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 20, 
+        "name": "G1New", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.043834184S", 
+        "longestPause": "PT0.043834184S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:44.934330628Z", 
+        "duration": "PT0.000098076S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 28, 
+        "totalThreadCount": 38, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:44.934448677Z", 
+        "gcId": 21, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 9730785280, 
+          "committedSize": 1140850688, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 831121248
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:44.981305053Z", 
+        "gcId": 21, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 9730785280, 
+          "committedSize": 1140850688, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 448794256
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T17:59:44.934447131Z", 
+        "duration": "PT0.046860071S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 21, 
+        "name": "G1New", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.046860071S", 
+        "longestPause": "PT0.046860071S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:45.466053241Z", 
+        "duration": "PT0.000014955S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 29, 
+        "totalThreadCount": 38, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:45.466087816Z", 
+        "gcId": 22, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 9730785280, 
+          "committedSize": 1140850688, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 885001872
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:45.518089250Z", 
+        "gcId": 22, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 10871635968, 
+          "committedSize": 2281701376, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 515519152
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T17:59:45.466086309Z", 
+        "duration": "PT0.052005429S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 22, 
+        "name": "G1New", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.052005429S", 
+        "longestPause": "PT0.052005429S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:47.238938045Z", 
+        "duration": "PT0.000008058S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 30, 
+        "totalThreadCount": 36, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:47.238963141Z", 
+        "gcId": 23, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 10871635968, 
+          "committedSize": 2281701376, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 1673147056
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:47.259270238Z", 
+        "gcId": 23, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 10871635968, 
+          "committedSize": 2281701376, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 518825904
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T17:59:47.238961872Z", 
+        "duration": "PT0.020309795S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 23, 
+        "name": "G1New", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.020309795S", 
+        "longestPause": "PT0.020309795S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:49.778810306Z", 
+        "duration": "PT0.000009892S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 31, 
+        "totalThreadCount": 42, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:49.778841690Z", 
+        "gcId": 24, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 10871635968, 
+          "committedSize": 2281701376, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 1357686704
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:49.878050767Z", 
+        "gcId": 24, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 10871635968, 
+          "committedSize": 2281701376, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 693818112
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T17:59:49.778839802Z", 
+        "duration": "PT0.099254087S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 24, 
+        "name": "G1New", 
+        "cause": "Metadata GC Threshold", 
+        "sumOfPauses": "PT0.099254087S", 
+        "longestPause": "PT0.099254087S"
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:49.878175273Z", 
+        "gcId": 25, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 10871635968, 
+          "committedSize": 2281701376, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 693818112
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:49.889105963Z", 
+        "duration": "PT0.000023106S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 32, 
+        "totalThreadCount": 42, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:49.898026842Z", 
+        "duration": "PT0.000007473S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 33, 
+        "totalThreadCount": 42, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:49.903713480Z", 
+        "duration": "PT0.000006995S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 34, 
+        "totalThreadCount": 42, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:49.909139109Z", 
+        "duration": "PT0.000020579S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 35, 
+        "totalThreadCount": 42, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:49.918712324Z", 
+        "duration": "PT0.000008453S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 36, 
+        "totalThreadCount": 42, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:49.937737457Z", 
+        "duration": "PT0.000010909S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 37, 
+        "totalThreadCount": 42, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:49.964757910Z", 
+        "duration": "PT0.000009623S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 38, 
+        "totalThreadCount": 42, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:50.075208714Z", 
+        "duration": "PT0.000032522S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 39, 
+        "totalThreadCount": 42, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:50.449900778Z", 
+        "duration": "PT0.000010349S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 40, 
+        "totalThreadCount": 41, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:50.730563333Z", 
+        "duration": "PT0.003156703S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 41, 
+        "totalThreadCount": 48, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:50.750464790Z", 
+        "gcId": 25, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 10871635968, 
+          "committedSize": 2281701376, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 945476352
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T17:59:49.878174397Z", 
+        "duration": "PT0.87229399S", 
+        "eventThread": {
+          "osName": "G1 Main Marker", 
+          "osThreadId": 96316, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 25, 
+        "name": "G1Old", 
+        "cause": "Metadata GC Threshold", 
+        "sumOfPauses": "PT0.007093673S", 
+        "longestPause": "PT0.007072126S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:51.726279756Z", 
+        "duration": "PT0.000234385S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 42, 
+        "totalThreadCount": 48, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:51.726539040Z", 
+        "gcId": 26, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 10871635968, 
+          "committedSize": 2281701376, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 1666896640
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:51.943307035Z", 
+        "gcId": 26, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 10871635968, 
+          "committedSize": 2281701376, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 1026774272
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T17:59:51.726537321Z", 
+        "duration": "PT0.21677178S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 26, 
+        "name": "G1New", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.21677178S", 
+        "longestPause": "PT0.21677178S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:52.314277111Z", 
+        "duration": "PT0.000110654S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 43, 
+        "totalThreadCount": 48, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:52.314412214Z", 
+        "gcId": 27, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 10871635968, 
+          "committedSize": 2281701376, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 1815303424
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:52.481824158Z", 
+        "gcId": 27, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 10871635968, 
+          "committedSize": 2281701376, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 1213845144
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T17:59:52.314410051Z", 
+        "duration": "PT0.167416479S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 27, 
+        "name": "G1New", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.167416479S", 
+        "longestPause": "PT0.167416479S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:52.877249036Z", 
+        "duration": "PT0.000123021S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 44, 
+        "totalThreadCount": 48, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:52.877398664Z", 
+        "gcId": 28, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 10871635968, 
+          "committedSize": 2281701376, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 1884933784
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:52.975444384Z", 
+        "gcId": 28, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 10871635968, 
+          "committedSize": 2281701376, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 1381570400
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T17:59:52.877396851Z", 
+        "duration": "PT0.098049531S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 28, 
+        "name": "G1New", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.098049531S", 
+        "longestPause": "PT0.098049531S"
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:52.975531534Z", 
+        "gcId": 29, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 10871635968, 
+          "committedSize": 2281701376, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 1381570400
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:53.438126280Z", 
+        "duration": "PT0.000092373S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 45, 
+        "totalThreadCount": 48, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:53.438245316Z", 
+        "gcId": 30, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 10871635968, 
+          "committedSize": 2281701376, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 1935218528
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:53.521049985Z", 
+        "gcId": 30, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 14159970304, 
+          "committedSize": 5570035712, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 1518953760
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T17:59:53.438242927Z", 
+        "duration": "PT0.082809063S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 30, 
+        "name": "G1New", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.082809063S", 
+        "longestPause": "PT0.082809063S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:54.711616403Z", 
+        "duration": "PT0.000406125S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 46, 
+        "totalThreadCount": 48, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:54.942779915Z", 
+        "duration": "PT0.000554189S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 47, 
+        "totalThreadCount": 48, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:54.943358961Z", 
+        "gcId": 31, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 13690208256, 
+          "committedSize": 5100273664, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 2911462688
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:55.109237256Z", 
+        "gcId": 31, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 13690208256, 
+          "committedSize": 5100273664, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 1871275296
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T17:59:54.943357365Z", 
+        "duration": "PT0.165881915S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 31, 
+        "name": "G1New", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.165881915S", 
+        "longestPause": "PT0.165881915S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:55.589421500Z", 
+        "duration": "PT0.00010776S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 48, 
+        "totalThreadCount": 48, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:55.626446444Z", 
+        "gcId": 29, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 13690208256, 
+          "committedSize": 5100273664, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 2458477856
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T17:59:52.975529743Z", 
+        "duration": "PT2.65092122S", 
+        "eventThread": {
+          "osName": "G1 Main Marker", 
+          "osThreadId": 96316, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 29, 
+        "name": "G1Old", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.014609854S", 
+        "longestPause": "PT0.014577092S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:56.100283763Z", 
+        "duration": "PT0.000015911S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 49, 
+        "totalThreadCount": 48, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:56.100327163Z", 
+        "gcId": 32, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 13690208256, 
+          "committedSize": 5100273664, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 2995348768
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:56.271500758Z", 
+        "gcId": 32, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 13690208256, 
+          "committedSize": 5100273664, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 2148099360
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T17:59:56.100324505Z", 
+        "duration": "PT0.171178397S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 32, 
+        "name": "G1New", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.171178397S", 
+        "longestPause": "PT0.171178397S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:57.718653532Z", 
+        "duration": "PT0.000107092S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 50, 
+        "totalThreadCount": 48, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:57.718786712Z", 
+        "gcId": 33, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 13690208256, 
+          "committedSize": 5100273664, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 3389613344
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:57.922520480Z", 
+        "gcId": 33, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 13690208256, 
+          "committedSize": 5100273664, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 2387050064
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T17:59:57.718784811Z", 
+        "duration": "PT0.203738307S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 33, 
+        "name": "G1New", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.203738307S", 
+        "longestPause": "PT0.203738307S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T17:59:59.898440150Z", 
+        "duration": "PT0.001904753S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 51, 
+        "totalThreadCount": 48, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T17:59:59.900369764Z", 
+        "gcId": 34, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 13690208256, 
+          "committedSize": 5100273664, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 3645341264
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:00.057480031Z", 
+        "gcId": 34, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 13690208256, 
+          "committedSize": 5100273664, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 2548114704
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T17:59:59.900367749Z", 
+        "duration": "PT0.157114364S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 34, 
+        "name": "G1New", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.157114364S", 
+        "longestPause": "PT0.157114364S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T18:00:02.089854507Z", 
+        "duration": "PT0.000013054S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 52, 
+        "totalThreadCount": 48, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:02.089896112Z", 
+        "gcId": 35, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 13690208256, 
+          "committedSize": 5100273664, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 4007732496
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:02.224359307Z", 
+        "gcId": 35, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 13690208256, 
+          "committedSize": 5100273664, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 2633499840
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T18:00:02.089893977Z", 
+        "duration": "PT0.134467256S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 35, 
+        "name": "G1New", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.134467256S", 
+        "longestPause": "PT0.134467256S"
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:02.224435798Z", 
+        "gcId": 36, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 13690208256, 
+          "committedSize": 5100273664, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 2633499840
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T18:00:04.702093102Z", 
+        "duration": "PT0.000063347S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 53, 
+        "totalThreadCount": 48, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:04.702185587Z", 
+        "gcId": 37, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 13690208256, 
+          "committedSize": 5100273664, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 4210558144
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:04.835380511Z", 
+        "gcId": 37, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 17834180608, 
+          "committedSize": 9244246016, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 2698338080
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T18:00:04.702182839Z", 
+        "duration": "PT0.133200259S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 37, 
+        "name": "G1New", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.133200259S", 
+        "longestPause": "PT0.133200259S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T18:00:05.750087462Z", 
+        "duration": "PT0.000094189S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 54, 
+        "totalThreadCount": 48, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T18:00:06.753179008Z", 
+        "duration": "PT0.00138837S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 55, 
+        "totalThreadCount": 48, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:06.790781313Z", 
+        "gcId": 36, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 17649631232, 
+          "committedSize": 9059696640, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 3587530528
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T18:00:02.224434379Z", 
+        "duration": "PT4.566351261S", 
+        "eventThread": {
+          "osName": "G1 Main Marker", 
+          "osThreadId": 96316, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 36, 
+        "name": "G1Old", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.008994914S", 
+        "longestPause": "PT0.008951432S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T18:00:07.784891336Z", 
+        "duration": "PT0.000097614S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 56, 
+        "totalThreadCount": 47, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:07.785010856Z", 
+        "gcId": 38, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 17649631232, 
+          "committedSize": 9059696640, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 4241841952
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:07.886915258Z", 
+        "gcId": 38, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 17649631232, 
+          "committedSize": 9059696640, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 2754253976
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T18:00:07.785009264Z", 
+        "duration": "PT0.101908378S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 38, 
+        "name": "G1New", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.101908378S", 
+        "longestPause": "PT0.101908378S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T18:00:09.470457088Z", 
+        "duration": "PT0.000095965S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 57, 
+        "totalThreadCount": 47, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:09.470575771Z", 
+        "gcId": 39, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 17649631232, 
+          "committedSize": 9059696640, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 4348089496
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:09.584515741Z", 
+        "gcId": 39, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 17649631232, 
+          "committedSize": 9059696640, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 2807912072
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T18:00:09.470574225Z", 
+        "duration": "PT0.113943476S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 39, 
+        "name": "G1New", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.113943476S", 
+        "longestPause": "PT0.113943476S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T18:00:11.079591039Z", 
+        "duration": "PT0.000092595S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 58, 
+        "totalThreadCount": 46, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:11.079705988Z", 
+        "gcId": 40, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 17649631232, 
+          "committedSize": 9059696640, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 4535965320
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:11.157679553Z", 
+        "gcId": 40, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 17649631232, 
+          "committedSize": 9059696640, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 2820100608
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T18:00:11.079704546Z", 
+        "duration": "PT0.077976766S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 40, 
+        "name": "G1New", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.077976766S", 
+        "longestPause": "PT0.077976766S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T18:00:12.848322001Z", 
+        "duration": "PT0.000032364S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 59, 
+        "totalThreadCount": 46, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:12.848377402Z", 
+        "gcId": 41, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 17649631232, 
+          "committedSize": 9059696640, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 4665594368
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:12.953896471Z", 
+        "gcId": 41, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 17649631232, 
+          "committedSize": 9059696640, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 2889061760
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T18:00:12.848375939Z", 
+        "duration": "PT0.105522371S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 41, 
+        "name": "G1New", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.105522371S", 
+        "longestPause": "PT0.105522371S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T18:00:14.787495327Z", 
+        "duration": "PT0.000014022S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 60, 
+        "totalThreadCount": 47, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:14.787536460Z", 
+        "gcId": 42, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 17649631232, 
+          "committedSize": 9059696640, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 4801664384
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:14.930705643Z", 
+        "gcId": 42, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 17649631232, 
+          "committedSize": 9059696640, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 2978095392
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T18:00:14.787534956Z", 
+        "duration": "PT0.143172679S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 42, 
+        "name": "G1New", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.143172679S", 
+        "longestPause": "PT0.143172679S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T18:00:16.854122997Z", 
+        "duration": "PT0.000014981S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 61, 
+        "totalThreadCount": 47, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:16.854163782Z", 
+        "gcId": 43, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 17649631232, 
+          "committedSize": 9059696640, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 4941029664
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:16.977116297Z", 
+        "gcId": 43, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 18438160384, 
+          "committedSize": 9848225792, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 3058212768
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T18:00:16.854162198Z", 
+        "duration": "PT0.122956575S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 43, 
+        "name": "G1New", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.122956575S", 
+        "longestPause": "PT0.122956575S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T18:00:19.316376639Z", 
+        "duration": "PT0.00001487S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 62, 
+        "totalThreadCount": 46, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:19.316416658Z", 
+        "gcId": 44, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 18438160384, 
+          "committedSize": 9848225792, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 5037924256
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:19.458352593Z", 
+        "gcId": 44, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 18438160384, 
+          "committedSize": 9848225792, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 3146974400
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T18:00:19.316415120Z", 
+        "duration": "PT0.141939399S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 44, 
+        "name": "G1New", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.141939399S", 
+        "longestPause": "PT0.141939399S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T18:00:21.414341165Z", 
+        "duration": "PT0.001082367S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 63, 
+        "totalThreadCount": 46, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:21.415447064Z", 
+        "gcId": 45, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 18438160384, 
+          "committedSize": 9848225792, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 5294458048
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:21.525671626Z", 
+        "gcId": 45, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 18438160384, 
+          "committedSize": 9848225792, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 3262014384
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T18:00:21.415444913Z", 
+        "duration": "PT0.11022861S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 45, 
+        "name": "G1New", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.11022861S", 
+        "longestPause": "PT0.11022861S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T18:00:23.589189161Z", 
+        "duration": "PT0.000098357S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 64, 
+        "totalThreadCount": 46, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:23.589311165Z", 
+        "gcId": 46, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 18438160384, 
+          "committedSize": 9848225792, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 5459829680
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:23.707661444Z", 
+        "gcId": 46, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 18438160384, 
+          "committedSize": 9848225792, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 3364246464
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T18:00:23.589309695Z", 
+        "duration": "PT0.11835415S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 46, 
+        "name": "G1New", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.11835415S", 
+        "longestPause": "PT0.11835415S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T18:00:25.847345172Z", 
+        "duration": "PT0.000091484S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 65, 
+        "totalThreadCount": 46, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:25.847459086Z", 
+        "gcId": 47, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 18438160384, 
+          "committedSize": 9848225792, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 5662725056
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:25.997886564Z", 
+        "gcId": 47, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 18438160384, 
+          "committedSize": 9848225792, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 3509337872
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T18:00:25.847456996Z", 
+        "duration": "PT0.150431542S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 47, 
+        "name": "G1New", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.150431542S", 
+        "longestPause": "PT0.150431542S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T18:00:28.103383530Z", 
+        "duration": "PT0.000095898S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 66, 
+        "totalThreadCount": 46, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:28.103502269Z", 
+        "gcId": 48, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 18438160384, 
+          "committedSize": 9848225792, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 5774262032
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:28.243594653Z", 
+        "gcId": 48, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 18438160384, 
+          "committedSize": 9848225792, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 3669843576
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T18:00:28.103500689Z", 
+        "duration": "PT0.140096487S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 48, 
+        "name": "G1New", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.140096487S", 
+        "longestPause": "PT0.140096487S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T18:00:30.244597195Z", 
+        "duration": "PT0.000100774S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 67, 
+        "totalThreadCount": 46, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:30.244721752Z", 
+        "gcId": 49, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 18438160384, 
+          "committedSize": 9848225792, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 5934767736
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:30.425510160Z", 
+        "gcId": 49, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 18438160384, 
+          "committedSize": 9848225792, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 3851988320
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T18:00:30.244720178Z", 
+        "duration": "PT0.180791921S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 49, 
+        "name": "G1New", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.180791921S", 
+        "longestPause": "PT0.180791921S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T18:00:32.311701269Z", 
+        "duration": "PT0.000123186S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 68, 
+        "totalThreadCount": 46, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:32.311846321Z", 
+        "gcId": 50, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 18438160384, 
+          "committedSize": 9848225792, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 5999471968
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:32.505881629Z", 
+        "gcId": 50, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 19075694592, 
+          "committedSize": 10485760000, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 4086869344
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T18:00:32.311844931Z", 
+        "duration": "PT0.194038602S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 50, 
+        "name": "G1New", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.194038602S", 
+        "longestPause": "PT0.194038602S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T18:00:35.197302584Z", 
+        "duration": "PT0.000086692S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 69, 
+        "totalThreadCount": 46, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:35.197410865Z", 
+        "gcId": 51, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 19075694592, 
+          "committedSize": 10485760000, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 6603451744
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:35.453104270Z", 
+        "gcId": 51, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 19075694592, 
+          "committedSize": 10485760000, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 4411406984
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T18:00:35.197409461Z", 
+        "duration": "PT0.255696763S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 51, 
+        "name": "G1New", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.255696763S", 
+        "longestPause": "PT0.255696763S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T18:00:37.077385082Z", 
+        "duration": "PT0.000088573S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 70, 
+        "totalThreadCount": 46, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:37.077494847Z", 
+        "gcId": 52, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 19075694592, 
+          "committedSize": 10485760000, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 5887801992
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:37.297129823Z", 
+        "gcId": 52, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 19075694592, 
+          "committedSize": 10485760000, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 4648906080
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T18:00:37.077493377Z", 
+        "duration": "PT0.219638408S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 52, 
+        "name": "G1New", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.219638408S", 
+        "longestPause": "PT0.219638408S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T18:00:39.656732794Z", 
+        "duration": "PT0.000086318S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 71, 
+        "totalThreadCount": 46, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T18:00:39.658062149Z", 
+        "duration": "PT0.000094486S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 72, 
+        "totalThreadCount": 46, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T18:00:40.357292308Z", 
+        "duration": "PT0.000007559S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 73, 
+        "totalThreadCount": 42, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:40.357317941Z", 
+        "gcId": 53, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 19075694592, 
+          "committedSize": 10485760000, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 6796389728
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:40.532008548Z", 
+        "gcId": 53, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 19075694592, 
+          "committedSize": 10485760000, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 4976061792
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T18:00:40.357316186Z", 
+        "duration": "PT0.174694355S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 53, 
+        "name": "G1New", 
+        "cause": "G1 Evacuation Pause", 
+        "sumOfPauses": "PT0.174694355S", 
+        "longestPause": "PT0.174694355S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T18:00:41.200724774Z", 
+        "duration": "PT0.00000838S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 74, 
+        "totalThreadCount": 42, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:41.200750016Z", 
+        "gcId": 54, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 19075694592, 
+          "committedSize": 10485760000, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 5244497248
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:43.384381630Z", 
+        "gcId": 54, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 19075694592, 
+          "committedSize": 10485760000, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 4602479816
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T18:00:41.200748613Z", 
+        "duration": "PT2.18363525S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 54, 
+        "name": "G1Full", 
+        "cause": "System.gc()", 
+        "sumOfPauses": "PT2.18363525S", 
+        "longestPause": "PT2.18363525S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T18:00:43.426045500Z", 
+        "duration": "PT0.000025665S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 75, 
+        "totalThreadCount": 42, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:43.426090887Z", 
+        "gcId": 55, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 19075694592, 
+          "committedSize": 10485760000, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 4602479816
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:43.918016308Z", 
+        "gcId": 55, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 11609833472, 
+          "committedSize": 3019898880, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 856737056
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T18:00:43.426088912Z", 
+        "duration": "PT0.491929893S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 55, 
+        "name": "G1Full", 
+        "cause": "System.gc()", 
+        "sumOfPauses": "PT0.491929893S", 
+        "longestPause": "PT0.491929893S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T18:00:43.951526960Z", 
+        "duration": "PT0.000009287S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 76, 
+        "totalThreadCount": 40, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:43.951554394Z", 
+        "gcId": 56, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 11609833472, 
+          "committedSize": 3019898880, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 1259390240
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:44.394138319Z", 
+        "gcId": 56, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 11609833472, 
+          "committedSize": 3019898880, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 856820616
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T18:00:43.951552477Z", 
+        "duration": "PT0.442588084S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 56, 
+        "name": "G1Full", 
+        "cause": "System.gc()", 
+        "sumOfPauses": "PT0.442588084S", 
+        "longestPause": "PT0.442588084S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T18:00:44.395507525Z", 
+        "duration": "PT0.00584331S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 77, 
+        "totalThreadCount": 40, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:44.401368611Z", 
+        "gcId": 57, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 11609833472, 
+          "committedSize": 3019898880, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 856820616
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:44.842420241Z", 
+        "gcId": 57, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 11609833472, 
+          "committedSize": 3019898880, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 856667344
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T18:00:44.401367260Z", 
+        "duration": "PT0.441055392S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 57, 
+        "name": "G1Full", 
+        "cause": "System.gc()", 
+        "sumOfPauses": "PT0.441055392S", 
+        "longestPause": "PT0.441055392S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T18:00:44.859189903Z", 
+        "duration": "PT0.000010184S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 78, 
+        "totalThreadCount": 40, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:44.859219260Z", 
+        "gcId": 58, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 11609833472, 
+          "committedSize": 3019898880, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 1242543312
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:45.308685365Z", 
+        "gcId": 58, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 11609833472, 
+          "committedSize": 3019898880, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 856668496
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T18:00:44.859217391Z", 
+        "duration": "PT0.449471052S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 58, 
+        "name": "G1Full", 
+        "cause": "System.gc()", 
+        "sumOfPauses": "PT0.449471052S", 
+        "longestPause": "PT0.449471052S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T18:00:45.313326218Z", 
+        "duration": "PT0.003756791S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 79, 
+        "totalThreadCount": 40, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:45.317102603Z", 
+        "gcId": 59, 
+        "when": "Before GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 11609833472, 
+          "committedSize": 3019898880, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 856668496
+      }
+    }, {
+      "type": "jdk.GCHeapSummary", 
+      "values": {
+        "startTime": "2025-10-10T18:00:45.710540562Z", 
+        "gcId": 59, 
+        "when": "After GC", 
+        "heapSpace": {
+          "start": 8589934592, 
+          "committedEnd": 11509170176, 
+          "committedSize": 2919235584, 
+          "reservedEnd": 34359738368, 
+          "reservedSize": 25769803776
+        }, 
+        "heapUsed": 807759696
+      }
+    }, {
+      "type": "jdk.GarbageCollection", 
+      "values": {
+        "startTime": "2025-10-10T18:00:45.317101326Z", 
+        "duration": "PT0.39344215S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "gcId": 59, 
+        "name": "G1Full", 
+        "cause": "System.gc()", 
+        "sumOfPauses": "PT0.39344215S", 
+        "longestPause": "PT0.39344215S"
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T18:00:45.737583409Z", 
+        "duration": "PT0.000007107S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 80, 
+        "totalThreadCount": 25, 
+        "jniCriticalThreadCount": 0
+      }
+    }, {
+      "type": "jdk.SafepointBegin", 
+      "values": {
+        "startTime": "2025-10-10T18:00:45.747467081Z", 
+        "duration": "PT0.007339422S", 
+        "eventThread": {
+          "osName": "VM Thread", 
+          "osThreadId": 96321, 
+          "javaName": null, 
+          "javaThreadId": 0, 
+          "group": null, 
+          "virtual": false
+        }, 
+        "safepointId": 81, 
+        "totalThreadCount": 25, 
+        "jniCriticalThreadCount": 0
+      }
+    }]
+  }
+}
